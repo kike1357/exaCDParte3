@@ -18,7 +18,7 @@ public class Busqueda {
         Busqueda ejemplo = new Busqueda();
         int indice = ejemplo.busquedaBinaria(numeros, clave, 0, numeros.length - 1);
         System.out.println("El indice del valor buscado es: " + indice);
-
+  
 
     }
 
