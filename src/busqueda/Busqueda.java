@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class Busqueda {
 
     public static void main(String[] args) {
-        
+        //unida la rama grafica a la master
         int tamaño;
         tamaño=Integer.parseInt(JOptionPane.showInputDialog("Introduce tamaño del array")); 
         int[] numeros = new int[tamaño];
@@ -18,7 +18,7 @@ public class Busqueda {
         Busqueda ejemplo = new Busqueda();
         int indice = ejemplo.busquedaBinaria(numeros, clave, 0, numeros.length - 1);
         System.out.println("El indice del valor buscado es: " + indice);
-  
+        //unida la rama principal a la master
 
     }
 
